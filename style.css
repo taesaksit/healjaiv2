@@ -3,11 +3,29 @@ body {
 }
 
 
-.btn-custom {
+.btn-blue {
     background-color: #3c62dd;
     color: #fefefe;
 }
 
-.btn-custom:hover {
-    background-color: #4c76ff;
+.btn-orange {
+    background-color:#ff8339;
+    color: #fefefe;
 }
+
+.btn-yellow {
+    background-color: #ffcd38 ;
+    color: #fefefe;
+}
+
+.btn-green {
+    background-color:#40ba4d ;
+    color: #fefefe;
+}
+
+
+
+
+/* .btn-blue:hover {
+    background-color: #4c76ff;
+} */
