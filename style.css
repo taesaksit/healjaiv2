@@ -1,0 +1,13 @@
+body {
+    font-family: 'Noto Sans Thai', sans-serif;
+}
+
+
+.btn-custom {
+    background-color: #3c62dd;
+    color: #fefefe;
+}
+
+.btn-custom:hover {
+    background-color: #4c76ff;
+}

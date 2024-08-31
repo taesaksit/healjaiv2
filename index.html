@@ -1,0 +1,99 @@
+<!DOCTYPE html data-theme="cupcake">
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HEAL JAI</title>
+  <link rel="icon" href="asset/logoFinal.webp" type="image/webp" />
+
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@400;700&display=swap" rel="stylesheet" />
+
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+</style>
+
+<body style="background-color: #fefefe">
+  <div class="navbar bg-base-100 sticky top-0 z-50">
+    <div class="navbar-start">
+      <div class="dropdown">
+
+        <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" />
+          </svg>
+        </div>
+
+        <ul tabindex="0" class="menu menu-md dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+          <li><a href="index.html">หน้าแรก </a></li>
+          <li><a href="page1.html">การจัดการความเครียดและวิตกกังวล</a></li>
+          <li><a href="page2.html">การเสริมสร้างความรอบรู้สุขภาพจิต</a></li>
+          <li><a href="page3.html">การเสริมสร้างพลังสุขภาพจิต</a></li>
+        </ul>
+      </div>
+      <a href="index.html">
+        <img src="asset/logoFinal.webp" alt="" class="" width="100" />
+      </a>
+
+    </div>
+
+    <div class="navbar-center">
+      <h1 class="text-3xl font-bold">HEAL JAI</h1>
+    </div>
+    <div class="navbar-end">
+      <button class="btn btn-ghost btn-circle" onclick="searchFunction()">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <div class="carousel w-full">
+    <div id="slide1" class="carousel-item relative w-full">
+      <img src="asset/bg-1.webp" />
+      <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+        <a href="#slide4" class="btn btn-circle">❮</a>
+        <a href="#slide2" class="btn btn-circle">❯</a>
+      </div>
+    </div>
+    <div id="slide2" class="carousel-item relative w-full">
+      <img src="asset/bg-2.webp" class="w-full" />
+      <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+        <a href="#slide1" class="btn btn-circle">❮</a>
+        <a href="#slide3" class="btn btn-circle">❯</a>
+      </div>
+    </div>
+    <div id="slide3" class="carousel-item relative w-full">
+      <img src="asset/bg-3.webp" class="w-full" />
+      <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+        <a href="#slide2" class="btn btn-circle">❮</a>
+        <a href="#slide4" class="btn btn-circle">❯</a>
+      </div>
+    </div>
+    <div id="slide4" class="carousel-item relative w-full">
+      <img src="asset/bg-4.webp" class="w-full" />
+      <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+        <a href="#slide3" class="btn btn-circle">❮</a>
+        <a href="#slide1" class="btn btn-circle">❯</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container max-w-lg mx-auto mt-8 px-5">
+    <div class="grid grid-cols-1 lg:grid-cols-1 gap-4">
+      <a href="page1.html"
+        class="btn rounded-full btn-custom w-full custom-color-btn">การจัดการความเครียดและวิตกกังวล</a>
+      <a href="page2.html"
+        class="btn rounded-full btn-custom w-full custom-color-btn">การเสริมสร้างความรอบรู้สุขภาพจิต</a>
+      <a href="page3.html" class="btn rounded-full btn-custom w-full custom-color-btn">การเสริมสร้างพลังสุขภาพจิต</a>
+    </div>
+  </div>
+</body>
+
+</html>
